@@ -1,0 +1,234 @@
+<!-- Ana TV | www.anatv.com.br -->
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Ana TV</title>
+    <link rel="stylesheet" href="Ana%20TV%20(Oficial).css">
+</head>
+<body>
+    <div class="sidebar">
+        <header>
+            <div class="image-text">
+            <span class="image">
+                <img src="LOGO ANA TV.png" alt="logo">
+            </span>
+
+            </div>
+
+        </header>
+        <ul class="nav-links">
+            <li>
+                <a href="#">
+                    <i class='bx bx-home'></i>
+                    <span class="link_name">Dashboard</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Dashboard</a></li>
+                </ul>
+            </li>
+            <li>
+               <div class="icon-links">
+                   <a href="#">
+                       <i class='bx bx-universal-access' ></i>
+                       <span class="link_name">Meus Clientes</span>
+                   </a>
+                   <i class='bx bx-chevron-down arrow'></i>
+               </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Meus Clientes</a></li>
+                    <li><a href="#">Novo Cliente</a></li>
+                    <li><a href="#">Inadimplentes do mês</a></li>
+                    <li><a href="#">Clientes em dias</a></li>
+                    <li><a href="#">Todos os clientes</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class='bx bx-wallet' ></i>
+                        <span class="link_name">Gestão Financeira</span>
+                    </a>
+                    <i class='bx bx-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Gestão Financeira</a></li>
+                    <li><a href="#">Nova Cobrança</a></li>
+                    <li><a href="#">Previsão de recebimento</a></li>
+                    <li><a href="#">Assinaturas</a></li>
+                 </ul>
+            </li>
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class='bx bx-coin-stack' ></i>
+                        <span class="link_name">Contas a Pagar</span>
+                    </a>
+                    <i class='bx bx-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Contas a Pagar</a></li>
+                    <li><a href="#">Custos Fixos mensais</a></li>
+                    <li><a href="#">Custos Variáveis</a></li>
+                    <li><a href="#">Débitos em aberto</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class='bx bx-notepad'></i>
+                        <span class="link_name">Meus Contratos</span>
+                    </a>
+                    <i class='bx bx-chevron-down arrow'></i>
+                </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Meus Contratos</a></li>
+                        <li><a href="#">Novo contrato</a></li>
+                        <li><a href="#">Contratos Finalizando</a></li>
+                    </ul>
+            </li>
+            <li>
+               <div class="icon-links">
+                   <a href="#">
+                       <i class='bx bx-money'></i>
+                       <span class="link_name">Plano de Investimentos</span>
+                   </a>
+                   <i class='bx bx-chevron-down arrow'></i>
+               </div>    
+               <ul class="sub-menu">
+                   <li><a class="link_name" href="#">Plano de Investimentos</a></li>
+                   <li><a href="#">Novo Pacote</a></li>
+                   <li><a href="#">Pacotes Cadastrados</a></li>
+                   <li><a href="#">Débitos em aberto</a></li>
+               </ul>
+            </li>
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class='bx bx-help-circle'></i>
+                        <span class="link_name">Ajuda</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <section class="home">
+            <h2>Menu</h2>
+            <div class="home-content">
+                <div class="overview-boxes">
+                    <div class="box">
+                        <div class="left-side">
+                            <div class="box_topic">Saldo Atual</div>
+                            <div class="number">R$ 0,00</div>
+                            <div class="indicator">
+                                <span class="text"></span>
+                            </div>
+                        </div>
+                        <i class='bx bx-chevron-right cart'></i>
+                    </div>
+                    <div class="box">
+                        <div class="left-side">
+                            <div class="box_topic">Receitas</div>
+                            <div class="number">R$ 0,00</div>
+                            <div class="indicator">
+                                <span class="text"></span>
+                            </div>
+                        </div>
+                        <i class='bx bx-chevron-right cart two'></i>
+                    </div>
+                    <div class="box">
+                        <div class="left-side">
+                            <div class="box_topic">Despesas</div>
+                            <div class="number">R$ 0,00</div>
+                            <div class="indicator">
+                                <span class="text"></span>
+                            </div>
+                        </div>
+                        <i class='bx bx-chevron-right cart three'></i>
+                    </div>
+                    <div class="box">
+                        <div class="left-side">
+                            <div class="box_topic">Vendas do Mês</div>
+                            <div class="number">00</div>
+                            <div class="indicator">
+                                <span class="text"></span>
+                            </div>
+                        </div>
+                        <i class='bx bx-chevron-right cart four'></i>
+                    </div>
+                    <div class="box">
+                        <div class="left-side">
+                            <div class="box_topic">Contratos Encerrados</div>
+                            <div class="number">00</div>
+                            <div class="indicator">
+                                <span class="text"></span>
+                            </div>
+                        </div>
+                        <i class='bx bx-chevron-right cart five'></i>
+                    </div>
+                    <div class="box">
+                        <div class="left-side">
+                            <div class="box_topic">Contratos Finalizando</div>
+                            <div class="number">00</div>
+                            <div class="indicator">
+                                <span class="text"></span>
+                            </div>
+                        </div>
+                        <i class='bx bx-chevron-right cart six'></i>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+
+    <script>
+        
+        let arrow = document.querySelectorAll(".arrow");
+        for (var  i = 0; i < arrow.length; i++) {
+          arrow[i].addEventListener("click", (e)=>{              
+          let arrowParent = e.target.parentElement.parentElement;          
+          arrowParent.classList.toggle("showMenu");    
+          });
+        }
+        
+        
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".bx-menu");
+        console.log(sidebar);
+        sidebarBtn.addEventListener("click", ()=>{
+            sidebar.classList.toggle("close");
+        });
+    </script>
+
+    <script src="Ana TV-2.py"></script>
+
+    <div class="botton-content">
+        <li class="">
+            <a href="#">
+                <i class='bx bx-help-circle icon'></i>
+                <span class="text nav-text">Ajuda</span>
+            </a>
+        </li>
+
+        <li class="mode">
+            <div class="moon-sun">
+                <i class='bx bx-moon icon moon'></i>
+                <i class='bx bx-sun icon sun'></i>
+            </div>
+            <span class="mode-text text">Dark Mode</span>
+
+            <div class="toggle-switch">
+                <span class="switch"></span>
+            </div>
+
+        </li>
+
+    </div>
+
+</body>
+</html>
